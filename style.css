@@ -1,0 +1,43 @@
+body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.heading{
+    color:#508C9B;
+    font-style:normal;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.head{ 
+    padding:20px;
+    margin:10px;
+    color: Black;
+    text-align:center;
+}
+
+.head img {
+          padding:20px;
+          margin:10px;
+           position: absolute;
+           top: 20%;
+           left: 30px;
+           transform: translateY(-50%);
+           width:416px; /* Adjust the width as needed */
+           height: 685px;
+}
+.box {
+   width: 30%;
+   height: 18%;
+   border: 1px solid #ccc;
+   background:#EEEDEB;
+   margin:10px;
+   border-radius:5px;
+   
+ }
+ 

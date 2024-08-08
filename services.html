@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .service {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 0 1 calc(33% - 40px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .service h2 {
+            color: #4CAF50;
+        }
+        .service p {
+            color: #555;
+        }
+        .service i {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+        @media (max-width: 768px) {
+            .service {
+                flex: 0 1 calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .service {
+                flex: 0 1 calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <div class="container">
+        <div class="service">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h2>Assist with Loans</h2>
+            <p>We provide comprehensive assistance with securing educational loans. Our team helps you understand the options available and guides you through the application process to ensure you get the best possible deal.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-passport"></i>
+            <h2>Visa and Guidance</h2>
+            <p>Our visa assistance service includes providing detailed information about visa requirements, helping with document preparation, and offering guidance throughout the visa application process to ensure a smooth experience.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-plane-arrival"></i>
+            <h2>Airport Pickup and Accommodation</h2>
+            <p>We offer airport pickup services and assistance in finding suitable accommodation. Our goal is to ensure your transition to a new city is comfortable and hassle-free.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-university"></i>
+            <h2>Choosing Courses and Universities</h2>
+            <p>We are aware that selecting the appropriate programs and colleges might be challenging. Allow our knowledgeable consultants to assist you in navigating the process.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-briefcase"></i>
+            <h2>Part-time Job</h2>
+            <p>We assist students in finding part-time job opportunities that fit their schedules and help them gain valuable work experience while studying. Our support includes resume building and interview preparation.</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

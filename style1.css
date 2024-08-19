@@ -1,0 +1,193 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+.container {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+.header {
+    background-color: #7FA1C3; /* Light blue background */
+    color: #fff;
+    /*position: fixed;*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 15px 20px; /* Adjusted padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for more depth */
+}
+
+.header img {
+    height: 50px; /* Adjust this value according to your logo size */
+}
+.header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2rem;
+}
+.nav{   
+    display: flex;
+    background-color:rgb(55, 55, 156) ;
+}
+.nav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: #6482AD;
+}
+.auth {
+    display: flex;
+    float: right;
+}
+.auth a {
+    /*float: left;*/
+    /*display: block;*/
+    color: #fff;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.auth a:hover {
+    background-color: #ddd;
+    color: #6482AD;
+}
+.content {
+    margin-top: 70px;
+    padding: 5px;
+    text-align: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #6482AD;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+.footer-links,
+.footer-address,
+.footer-social {
+    flex: 1;
+    margin: 5px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    color: #7FA1C3;
+}
+.footer-address {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.footer-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+.social-icon:hover {
+    color: #7FA1C3;
+}
+
+/* career*/
+.career {
+    width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.counselors {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.counselor {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 45%;
+}
+.counselor h2 {
+    margin-top: 0;
+}
+.form-container {
+    margin-bottom: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 0.75rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #45a049;
+}
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

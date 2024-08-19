@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- Include Font Awesome for social icons -->
+    <script src="https://kit.fontawesome.com/7a241e819f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>EduGuide</h1>
+        </div>    
+        <div class="nav">
+            <a href="About.html">About us</a>
+            <a href="http://localhost:8012/miniproject/services.php">Services</a>
+            <a href="file:///C:/xampp/htdocs/miniproject/country.html">Country</a>
+            <a href="http://localhost:8012/miniproject/career.php">Career</a>
+            <a href="about.html">Disable</a>
+            <a href="http://localhost:8012/miniproject/contact.php">Contact Us</a>
+            <div class="auth">
+                <a href="http://localhost:8012/miniproject/gdulogin.php">Sign In</a>
+                <a href="logout.php" class="btn btn-warning" id="logoutBtn">Logout</a>
+            </div>        
+        </div>
+    </div>        
+    <div class="content">
+        <img src="photo3.jpg" alt="Image not found">
+    </div>
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-address">
+            <p>123 EduGuide St,<br>
+               Learning City,<br>
+               Knowledge State, 12345</p>
+            <p>&copy; 2024 Study Abroad Destinations</p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('logoutBtn').addEventListener('click', function(event) {
+            // Prevent the default action of the link
+            event.preventDefault();
+            
+            // Show the alert message
+            alert('You are being logged out.');
+
+            // Redirect to the logout URL after a short delay (optional)
+            setTimeout(function() {
+                window.location.href = 'logout.php'; // Replace with your logout URL if needed
+            }, 1000); // Delay in milliseconds
+        });
+    </script>
+</body>
+</html>
+
